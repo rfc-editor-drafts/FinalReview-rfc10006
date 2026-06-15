@@ -37,6 +37,7 @@ In addition to the files available in GitHub, the following edited files are ava
 The following diff files are also available via www.rfc-editor.org:
 * [https://www.rfc-editor.org/authors/rfc10006-diff.html](https://www.rfc-editor.org/authors/rfc10006-diff.html) (all changes since the document entered the RFC Editor Queue)
 * [https://www.rfc-editor.org/authors/rfc10006-rfcdiff.html](https://www.rfc-editor.org/authors/rfc10006-rfcdiff.html) (side-by-side view of all changes since the document entered the RFC Editor Queue)
+* [https://www.rfc-editor.org/authors/rfc10006-alt-diff.html](https://www.rfc-editor.org/authors/rfc10006-alt-diff.html) (shows changes where text is moved or deleted)
 
 To create your own output and diff files, use the [IETF Author Tools webservice](https://author-tools.ietf.org/).
 
