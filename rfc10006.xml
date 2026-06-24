@@ -1717,19 +1717,19 @@ authenticate the enterprise.
       <t>When such a description is not feasible, the description varies on how the update is triggered.</t>
 
       <ul spacing="normal">
-	<li><t>If the update is triggered by an RFC, insert this text:</t>
-	<t>The "description" substatement should include this text: "Applied
-	updates as specified by RFC 10006.".</t></li>
+	<li><t>If the update is triggered by an RFC, the "description" substatement should include or consist of this text:</t>
+	<t>Applied
+	updates as specified by RFC 10006.</t></li>
 
         <li><t>If the update is triggered following other IANA registration
         policy (<xref section="4" target="RFC8126"/>) but not all the values in the registry
         are covered by the same policy, insert this text:</t>
 
-	<t>The "description" substatement should include this text: "Applied
-	updates as specified by the registration policy Some_IANA_policy".</t></li>
+	<t>Applied
+	updates as specified by the registration policy Some_IANA_policy.</t></li>
       </ul>
       <t>The "reference" substatement points specifically to the published
-      module (i.e., IANA_SIP_OPTION_TAGS_URL_With_REV). It may also point to an
+      module at <xref target="YANG-PARAMS"/>. It may also point to an
       authoritative event triggering the update to the YANG module. In all
       cases, this event is cited from the underlying IANA registry. If the
       update is triggered by an RFC, that RFC must also be included in
