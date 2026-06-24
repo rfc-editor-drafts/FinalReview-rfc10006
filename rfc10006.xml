@@ -411,7 +411,7 @@ module: ietf-sip-auto-peering
         <name>YANG Data Model</name>
         <t>
 This section defines the YANG module for the peering capability set
-document. This module depends on existing YANG modules that provide common YANG data types <xref target="RFC6991"/> and system management <xref target="RFC7317"/>. In addition, this YANG module references <xref target="RFC2833"/>, <xref target="RFC4585"/>, <xref target="RFC4568"/>, <xref target="RFC4733"/>, <xref target="RFC4855"/>, <xref target="RFC4961"/>, <xref target="RFC5764"/>, <xref target="RFC6716"/>, <xref target="RFC7362"/>, <xref target="RFC8555"/>, <xref target="RFC9645"/>, <xref target="iana-crypt-hash"/>, and <xref target="iana-sip-option-tags"/>.</t>
+document. This module depends on existing YANG modules that provide common YANG data types <xref target="RFC9911"/> and system management <xref target="RFC7317"/>. In addition, this YANG module references <xref target="RFC2833"/>, <xref target="RFC4585"/>, <xref target="RFC4568"/>, <xref target="RFC4733"/>, <xref target="RFC4855"/>, <xref target="RFC4961"/>, <xref target="RFC5764"/>, <xref target="RFC6716"/>, <xref target="RFC7362"/>, <xref target="RFC8555"/>, <xref target="RFC9645"/>, <xref target="iana-crypt-hash"/>, and <xref target="iana-sip-option-tags"/>.</t>
 
 <sourcecode name="ietf-sip-auto-peering@2026-06-15.yang" type="yang" markers="true"><![CDATA[
 module ietf-sip-auto-peering {
@@ -422,13 +422,13 @@ module ietf-sip-auto-peering {
   import ietf-inet-types {
     prefix "inet";
     reference
-      "RFC 6991: Common YANG Data Types.";
+      "RFC 9911: Common YANG Data Types.";
   }
 
   import ietf-yang-types {
     prefix "yang";
     reference
-      "RFC 6991: Common YANG Data Types.";
+      "RFC 9911: Common YANG Data Types.";
   }
 
   import iana-crypt-hash {
@@ -1821,7 +1821,7 @@ the different points at which the workflow is vulnerable to attackers.</t>
 <t>This YANG module uses groupings from other YANG modules that
 define nodes that may be considered sensitive or vulnerable
 in network environments. Refer to the Security Considerations
-of <xref target="RFC6991"/> and <xref target="RFC7317"/> for information as to which nodes may
+of <xref target="RFC9911"/> and <xref target="RFC7317"/> for information as to which nodes may
 be considered sensitive or vulnerable in network environments.</t>
 </section>
 <!-- <section anchor="security-considerations-capability-set" numbered="true" toc="default">
@@ -1871,7 +1871,7 @@ be considered sensitive or vulnerable in network environments.</t>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.6020.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.6665.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.6749.xml"/>
-      <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.6991.xml"/>
+      <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.9911.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.7317.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.7950.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.9110.xml"/>
