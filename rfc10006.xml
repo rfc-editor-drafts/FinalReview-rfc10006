@@ -337,7 +337,7 @@ Content-Type: application/jrd+json
     </section>
     <section anchor="data-model-for-capability-set" numbered="true" toc="default">
       <name>Data Model for Capability Set</name>
-      <t>This section defines a YANG module <xref target="RFC7950"/> for encoding the service provider capability set. <xref target="tree-diagram"/> provides the tree diagram, which is followed by a description of the various nodes within the module defined in this document.</t>
+      <t>This section contains a tree diagram (<xref target="tree-diagram"/>), the YANG module <xref target="RFC7950"/> for encoding the service provider capability set (<xref target="yang-model"/>), and a discussion about extending the capability set (<xref target="extending-the-capability-set"/>). <xref target="tree-diagram"/> provides the tree diagram, which is followed by a description of the various nodes within the module defined in this document.</t>
       <section anchor="tree-diagram" numbered="true" toc="default">
         <name>Tree Diagram</name>
         <t>The meanings of the symbols in YANG tree diagrams are defined in "YANG Tree Diagrams" <xref target="RFC8340"/>.</t>
