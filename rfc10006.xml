@@ -115,7 +115,7 @@ peering.
         <t>
 <xref target="fig1"/> illustrates a reference architecture that may be deployed to
 support the mechanism described in this document. The enterprise network
-consists of a SIP-PBX, media endpoints (ME), and a Session Border Controller (SBC) <xref target="RFC7092"/>.
+consists of a SIP Private Branch Exchange (SIP-PBX), media endpoints (ME), and a Session Border Controller (SBC) <xref target="RFC7092"/>.
 It may also include additional components such as application servers
 for voicemail, recording, fax, etc. At a high level, the service provider
 consists of a SIP signaling entity (SP-SSE), a media entity for handling media streams of calls set up by the SP-SSE, and an HTTP <xref target="RFC9110"/> server that stores the capability set document (indicated as Cap Server in <xref target="fig1"/>).
