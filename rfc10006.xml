@@ -1468,7 +1468,7 @@ network that will peer with it.
     {
         "variant": "ietf-sip-auto-peering:v1-0",
         "revision": {
-            "not-before": "2025-12-21T10:30:00Z",
+            "not-before": "2026-06-15T10:30:00Z",
             "location": 
                 "https://capserver.example.org/capserver/capdoc.json"
         },
