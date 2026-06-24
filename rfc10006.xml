@@ -565,7 +565,7 @@ module ietf-sip-auto-peering {
   identity g729 {
     base codec-variant;
     description
-      "G729 codec.";
+      "G.729 codec.";
   }
 
   grouping entity {
@@ -1068,7 +1068,7 @@ module ietf-sip-auto-peering {
           "A container that encapsulates the fax
           protocol(s) supported by the SIP service provider.  The fax
           container encloses a list (protocol) that enumerates
-          whether the service provider supports t38 relay, protocol-
+          whether the service provider supports T.38 relay, protocol-
           based fax passthrough, or both.  The relative ordering of 
           nodes within the lists indicates preference.";
 
@@ -1080,7 +1080,7 @@ module ietf-sip-auto-peering {
             }
             enum t38 {
               description
-                "T38 relay.";
+                "T.38 relay.";
             }
           }
           max-elements 2;
