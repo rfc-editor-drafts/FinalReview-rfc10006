@@ -551,7 +551,9 @@ module ietf-sip-auto-peering {
 
   identity opus {
     base codec-variant;
-    description "Opus audio codec (RFC 6716).";
+    description "Opus audio codec.";
+	reference
+      "RFC 6716: Definition of the Opus Audio Codec.";
   }
 
   identity g722 {
