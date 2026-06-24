@@ -605,7 +605,7 @@ module ietf-sip-auto-peering {
       mandatory true;
       description 
         "A node that identifies the version number of the capability
-        set document.  This document defines the parameters for 
+        set document.  RFC 10006 defines the parameters for 
         variant 1.0; future specifications might define a richer 
         parameter set, in which case the variant must be changed 
         to 2.0, 3.0, and so on.  Future extensions to the 
@@ -995,13 +995,13 @@ module ietf-sip-auto-peering {
       description
         "A container that is used to collectively encapsulate the
         characteristics of UDP-based audio streams.  A future 
-        extension to this document may extend the media container 
+        extension to RFC 10006 may extend the media container 
         to describe other media types.  The media container is 
         also used to encapsulate basic information about 
         Real-Time Transport Protocol (RTP) and Real-Time 
         Transport Control Protocol (RTCP) from the perspective 
         of the service provider network.  At the time of writing
-        this specification, video media streams are not exchanged
+        RFC 10006, video media streams are not exchanged
         between enterprise and service provider SIP networks.";
 
       list media-type-audio {
