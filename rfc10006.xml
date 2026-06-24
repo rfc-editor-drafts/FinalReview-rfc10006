@@ -109,7 +109,7 @@ peering.
 
     <section anchor="overview-of-operations" numbered="true" toc="default">
       <name>Overview of Operations</name>
-      <t>This section provides a reference architecture against which the SIP Automatic Peering framework may be implemented. Additionally, terms that are commonly used in the context of the document are defined. Last, considerations for the choice of network transport between enterprise and service provider telephony networks are discussed.</t>
+      <t>This section provides a reference architecture against which the SIP Automatic Peering framework may be implemented. Additionally, terms that are commonly used in the context of the document are defined. Last, considerations for the configuration workflow and the choice of network transport between enterprise and service provider telephony networks are discussed.</t>
       <section anchor="reference-architecture" numbered="true" toc="default">
         <name>Reference Architecture</name>
         <t>
