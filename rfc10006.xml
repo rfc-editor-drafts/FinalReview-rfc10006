@@ -1824,38 +1824,6 @@ in network environments. Refer to the Security Considerations
 of <xref target="RFC9911"/> and <xref target="RFC7317"/> for information as to which nodes may
 be considered sensitive or vulnerable in network environments.</t>
 </section>
-<!-- <section anchor="security-considerations-capability-set" numbered="true" toc="default">
-  <name>Capability Set</name>
-<ul spacing="normal">
-	<li>The attacker can use the "registrar" field in the "transport-info" section of the capability
-	set to register a single or a series of endpoints with the service provider
-	while pretending to be the enterprise. The "callControl" field provides a list of destinations
-	that the attacker could make calls to. The attacker can also rack up considerable
-	bills for the enterprise by making outgoing calls to expensive destinations via the service
-	provider network such as international calls. The attacker also has information of hosts within the
-	service provider network. This opens avenues such as network and vulnerability scanning, targeted
-	as well as DDoS attacks on servers in the service provider network.</li>
-	<li>The "call-specs" and "media" sections of the document provide information on the capabilities
-	supported by the service provider network as well as valid phone numbers belonging to the enterprise.
-	The attacker can leverage this information to craft SIP and SDP signaling messages in order to place
-	calls towards the destinations mentioned above.</li>
-	<li>The attacker will also be able to place secure calls over TLS and SRTP with the information in
-	the "security" section of the capability set document.</li>
-
-</ul>
-</section> -->
-<!-- <section anchor="security-considerations-storage" numbered="true" toc="default">
-<name>Storage</name>
-<t>The service provider <bcp14>MUST</bcp14> encrypt the capability set documents in their respective capability
- servers if they generate the documents for their customers before-hand. In a scenario where a
- capability server in the service provider network is compromised, an attacker will not be able
- to steal capability set documents and use them for malicious purposes.</t>
- <t>One method to avoid having to encrypt files is for the service provider to generate the
-  capability set documents on-demand by leveraging automation. When the capability server
-  receives a request to download the capability set from an enterprise, a script can generate
-  the capability set document for the respective enterprise. The capability server can then
-  return this document to the enterprise over a secure channel.</t>
-</section> -->
 
   </section>
 
