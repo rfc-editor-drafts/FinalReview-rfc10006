@@ -411,7 +411,7 @@ module: ietf-sip-auto-peering
         <name>YANG Data Model</name>
         <t>
 This section defines the YANG module for the peering capability set
-document. This module depends on existing YANG modules that provide common YANG data types <xref target="RFC6991"/> and system management <xref target="RFC7317"/>. In addition, this YANG module references <xref target="RFC2833"/>, <xref target="RFC4585"/>, <xref target="RFC4568"/>, <xref target="RFC4733"/>, <xref target="RFC4855"/>, <xref target="RFC4961"/>, <xref target="RFC7362"/>, <xref target="RFC8555"/>, and <xref target="RFC9645"/>.</t>
+document. This module depends on existing YANG modules that provide common YANG data types <xref target="RFC6991"/> and system management <xref target="RFC7317"/>. In addition, this YANG module references <xref target="RFC2833"/>, <xref target="RFC4585"/>, <xref target="RFC4568"/>, <xref target="RFC4733"/>, <xref target="RFC4855"/>, <xref target="RFC4961"/>, <xref target="RFC5764"/>, <xref target="RFC6716"/>, <xref target="RFC7362"/>, <xref target="RFC8555"/>, <xref target="RFC9645"/>, and <xref target="iana-crypt-hash"/>.</t>
 
 <sourcecode name="ietf-sip-auto-peering@2026-06-15.yang" type="yang" markers="true"><![CDATA[
 module ietf-sip-auto-peering {
