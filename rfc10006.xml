@@ -1183,7 +1183,7 @@ module ietf-sip-auto-peering {
             operations such as transcoding or transrating.
             In a similar vein, for the RTCP-based feedback mechanism
             as defined in RFC 4585 to be truly effective, 
-	        intermediaries must ensure that feedback messages are 
+            intermediaries must ensure that feedback messages are 
             passed reliably and with the correct formatting to 
             enterprise endpoints.
             This might require additional configuration and
