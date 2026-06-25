@@ -1182,9 +1182,10 @@ module ietf-sip-auto-peering {
             intermediary has performed media payload transformation
             operations such as transcoding or transrating.
             In a similar vein, for the RTCP-based feedback mechanism
-            as defined in RFC 4585 to be truly effective, intermediaries must
-            ensure that feedback messages are passed reliably and
-            with the correct formatting to enterprise endpoints.
+            as defined in RFC 4585 to be truly effective, 
+	        intermediaries must ensure that feedback messages are 
+            passed reliably and with the correct formatting to 
+            enterprise endpoints.
             This might require additional configuration and
             considerations that need to be dealt with at the time
             of provisioning the intermediary device.  This node
