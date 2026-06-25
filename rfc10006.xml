@@ -1765,21 +1765,6 @@ the different points at which the workflow is vulnerable to attackers.</t>
 </section>
 <section anchor="security-considerations-yang" numbered="true" toc="default">
   <name>YANG Security Considerations</name>
-  <t>This section is modeled after the template described in <xref
-  target="RFC9907" sectionFormat="of" section="3.7.1"/>.</t>
-
-  <t>The "ietf-sip-auto-peering" YANG module defines a data model that is
-  designed to be accessed via YANG-based management protocols, such as
-  Network Configuration Protocol (NETCONF) <xref target="RFC6241"/> and
-  RESTCONF <xref target="RFC8040"/>.  These YANG-based management protocols
-  (1) have to use a secure transport layer (e.g., Secure Shell (SSH) <xref
-  target="RFC4252"/>, TLS <xref target="RFC8446"/>, and QUIC <xref
-  target="RFC9000"/>) and (2) have to use mutual authentication.</t>
-
-  <t>The Network Configuration Access Control Model (NACM) <xref
-  target="RFC8341"/> provides the means to restrict access for particular
-  NETCONF or RESTCONF users to a preconfigured subset of all available NETCONF
-  or RESTCONF protocol operations and content.</t>
 
   <t>The "ietf-sip-auto-peering" YANG module defines a data model that a
   service provider <bcp14>MUST</bcp14> adhere to while creating the capability
@@ -1847,7 +1832,6 @@ be considered sensitive or vulnerable in network environments.</t>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8174.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8446.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.9645.xml"/>
-      <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8341.xml"/>
       <reference anchor="iana-crypt-hash"
         target="https://www.iana.org/assignments/iana-crypt-hash">
         <front>
@@ -1874,7 +1858,6 @@ be considered sensitive or vulnerable in network environments.</t>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.2833.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.3262.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.3688.xml"/>
-      <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.4252.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.4568.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.4585.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.4733.xml"/>
@@ -1886,13 +1869,10 @@ be considered sensitive or vulnerable in network environments.</t>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.7033.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.7092.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.7362.xml"/>
-      <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8040.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8340.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8555.xml"/>
-      <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.9000.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.9114.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8126.xml"/>
-      <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.9907.xml"/>
       <reference anchor="SIPconnect-TR"
         target="https://www.sipforum.org/download/sipconnect-technical-recommendation-version-2-0/?wpdmdl=2818">
         <front>
