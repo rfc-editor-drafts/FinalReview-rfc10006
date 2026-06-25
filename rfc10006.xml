@@ -1808,6 +1808,13 @@ define nodes that may be considered sensitive or vulnerable
 in network environments. Refer to the Security Considerations
 of <xref target="RFC9911"/> and <xref target="RFC7317"/> for information as to which nodes may
 be considered sensitive or vulnerable in network environments.</t>
+
+<t>The YANG module "iana-sip-option-tags" defines a set of types. These nodes are intended to
+be reused by other YANG modules. This module by itself does not
+expose any data nodes that are writable, data nodes that contain
+read-only state, or RPCs. As such, there are no additional security
+issues related to this YANG module that need to be considered.
+</t>
 </section>
 
   </section>
