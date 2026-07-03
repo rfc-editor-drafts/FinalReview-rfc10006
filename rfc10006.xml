@@ -85,7 +85,7 @@ nuanced enough to intuitively allow the generation of specific
 configuration blocks.
 </t>
       <t>
-This document introduces the SIP Auto Peer framework by which an enterprise network can
+This document introduces the framework for Automatic Peering and Trunking over SIP by which an enterprise network can
 solicit a detailed capability set from a SIP service provider; the
 detailed capability set can subsequently be used by automation or an
 administrator to generate configuration blocks across one or more
