@@ -10,7 +10,7 @@
 <rfc xmlns:xi="http://www.w3.org/2001/XInclude" ipr="trust200902" xml:lang="en" consensus="true" obsoletes="" updates="" submissionType="IETF" tocInclude="true" symRefs="true" sortRefs="true" version="3" category="std" docName="draft-ietf-asap-sip-auto-peer-41" number="10006">
 
   <front>
-    <title abbrev="Automatic Peering for SIP Trunks">Automatic Peering for SIP Trunks</title>
+    <title>Automatic SIP Trunking and Peering</title>
     <seriesInfo name="RFC" value="10006"/>
     <author initials="K." surname="Inamdar" fullname="Kaustubh Inamdar">
       <organization>Unaffiliated</organization>
