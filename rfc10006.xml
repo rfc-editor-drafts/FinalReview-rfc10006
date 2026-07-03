@@ -55,7 +55,8 @@ conventional methods of interconnection between enterprise and service
 provider networks.
 
 Currently published standards provide a strong foundation over which
-direct IP peering can be realized. However, given the sheer number of
+direct IP peering can be realized (note that "peering" and "trunking" can be used interchangeably).
+However, given the sheer number of
 these standards, it is often not clear which behavioral subsets,
 extensions to baseline protocols, and operating principles ought to be
 implemented by service provider and enterprise networks to ensure
