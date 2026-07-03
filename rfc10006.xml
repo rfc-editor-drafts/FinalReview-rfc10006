@@ -1461,9 +1461,11 @@ edge element and the service provider to acquire the capability set
 document. The service provider will create a unique document for each enterprise
 network that will peer with it.
 </t>
+
   <section anchor="json-capability-set-document" 
 	   numbered="true" toc="default">
     <name>JSON Capability Set Document</name>
+	  <t>NOTE: '\' line wrapping per <xref target"RFC8792"/>.</t>
     <sourcecode name="asap-example.json" type="json" markers="true"><![CDATA[
 {
     "ietf-sip-auto-peering:sip-auto-peering":
@@ -1494,7 +1496,8 @@ network that will peer with it.
                     "name": "voip.example.com",
                     "username": "voip",
                     "password": 
-                        "$6$OoEJwExxp6U/FRFq$4RkL2lSSGLoKdfGjX4lQLFXo89gc0wtJsKiBxg/BBz6aNwu7C.D3kRUwD7lvJm6rhaCdhSzVh/XfkkAUY2dTu0"
+                        "$6$OoEJwExxp6U/FRFq$4RkL2lSSGLoKdfGjX4lQLF\
+		Xo89gc0wtJsKiBxg/BBz6aNwu7C.D3kRUwD7lvJm6rhaCdhSzVh/XfkkAUY2dTu0"
                 }
             ],
             "call-control": [
@@ -1840,6 +1843,7 @@ issues related to this YANG module that need to be considered.
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.4855.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8174.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8446.xml"/>
+      <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.8792.xml"/>
       <xi:include href="https://bib.ietf.org/public/rfc/bibxml/reference.RFC.9645.xml"/>
       <reference anchor="iana-crypt-hash"
         target="https://www.iana.org/assignments/iana-crypt-hash">
