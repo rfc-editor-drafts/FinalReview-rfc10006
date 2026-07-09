@@ -1400,8 +1400,8 @@ Extensions of the module can be achieved by importing the module defined
 in this document. An example is provided below.</t>
 
 <t>
-  Consider a new YANG module "vendorA" specified for VendorA's enterprise
-  SBC. The "vendorA-config" YANG module is configured as follows:
+  Consider a new YANG module "example-vendor-config" specified for Vendor's enterprise
+  SBC. The "example-vendor-config" YANG module is configured as follows:
 </t>
     <sourcecode type="yang"><![CDATA[
     module vendorA-config {
@@ -1426,20 +1426,72 @@ in this document. An example is provided below.</t>
             type int32;
             description "vendorA configuration parameter 1
             (SBC Device ID)";
-          }
+    <sourcecode type="yang"><![CDATA[
+module example-vendor-config {
+  yang-version 1.1;
+  namespace "urn:ietf:params:xml:ns:yang:example-vendor-config";
+  prefix "vendor";
 
-          leaf vendorAConfigParam2 {
-            type string;
-              description "vendorA configuration parameter 2
-              (SBC Device name)";
-          }
-          description "Container for vendorA SBC configuration";
-        }
+  import ietf-sip-auto-peering {
+    prefix "sipap";
+    reference
+      "RFC 10006: Automatic SIP Peering.";
+  }  
+
+  organization
+    "Vendor Enterprise.";
+
+  contact
+    "Vendor Enterprise
+
+     Vendor Enterprise
+     1234 Vendor Street
+     Anytown, State 12345
+
+     Tel: +1 424 254 5300
+
+     <mailto:vendor@vendor.com>";
+
+  description
+    "Example of a vendor configuration data model that augments the
+     IETF SIP auto-peering model to include vendor specific SBC
+     configuration parameters.";
+
+  revision 2026-12-06 {
+    description 
+      "Initial revision of Vendor Enterprise SBC
+       configuration data model.";
+    reference
+      "RFC 10006: Vendor Enterprise SBC Configuration Data Model.";
+  }
+
+  augment "/sipap:sip-auto-peering" {
+    description
+      "Augmentation of the SIP auto-peering model to include vendor
+       specific SBC configuration parameters.";
+    container vendorConfig {
+      leaf vendorConfigParam1 {
+        type int32;
+        description 
+          "vendor configuration parameter 1
+           (SBC Device ID).";
       }
-    }]]></sourcecode>
+
+      leaf vendorConfigParam2 {
+        type string;
+          description
+            "vendor configuration parameter 2
+             (SBC Device name).";
+      }
+      description
+        "Container for vendor SBC configuration.";
+    }
+  }
+}
+]]></sourcecode>
         <t>
 
-In the example above, a custom module named "vendorA-config" uses the
+In the example above, a custom module named "example-vendor-config" uses the
 "augment" statement as defined in <xref target="RFC7950" section="4.2.8"/> to extend
 the module defined in this document.
 
