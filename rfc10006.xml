@@ -1403,30 +1403,8 @@ in this document. An example is provided below.</t>
   Consider a new YANG module "example-vendor-config" specified for Vendor's enterprise
   SBC. The "example-vendor-config" YANG module is configured as follows:
 </t>
-    <sourcecode type="yang"><![CDATA[
-    module vendorA-config {
-      namespace "urn:ietf:params:xml:ns:yang:vendorA-config";
-      prefix "vendorA";
 
-      description
-      "Data model for configuring VendorA Enterprise SBC";
-
-      revision 2020-05-06 {
-        description "Initial revision of VendorA Enterprise SBC
-        configuration data model";
-      }
-
-      import ietf-sip-auto-peering {
-        prefix "peering";
-      }
-
-      augment "/peering:sip-auto-peering" {
-        container vendorAConfig {
-          leaf vendorAConfigParam1 {
-            type int32;
-            description "vendorA configuration parameter 1
-            (SBC Device ID)";
-    <sourcecode type="yang"><![CDATA[
+<sourcecode type="yang"><![CDATA[
 module example-vendor-config {
   yang-version 1.1;
   namespace "urn:ietf:params:xml:ns:yang:example-vendor-config";
