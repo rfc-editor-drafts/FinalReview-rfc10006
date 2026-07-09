@@ -502,7 +502,7 @@ module ietf-sip-auto-peering {
   revision 2026-06-15 {
     description "Initial version";
     reference
-      "RFC 10006: Automatic Peering for SIP Trunks";
+      "RFC 10006: Automatic SIP Trunking and Peering";
   }
 
   identity capability-doc-variant {
@@ -1413,7 +1413,7 @@ module example-vendor-config {
   import ietf-sip-auto-peering {
     prefix "sipap";
     reference
-      "RFC 10006: Automatic SIP Peering.";
+      "RFC 10006: Automatic SIP Trunking and Peering";
   }  
 
   organization
@@ -1438,7 +1438,7 @@ module example-vendor-config {
       "Initial revision of Vendor Enterprise SBC
        configuration data model.";
     reference
-      "RFC 10006: Vendor Enterprise SBC Configuration Data Model.";
+      "RFC 10006: Automatic SIP Trunking and Peering";
   }
 
   augment "/sipap:sip-auto-peering" {
