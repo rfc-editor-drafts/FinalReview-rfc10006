@@ -612,6 +612,8 @@ module ietf-sip-auto-peering {
         to 2.0, 3.0, and so on.  Future extensions to the 
         capability set document MUST also ensure that the 
         corresponding YANG module is defined.";
+      reference
+        "RFC 10006: Automatic SIP Trunking and Peering";
     }
 
     container revision {
@@ -1004,6 +1006,8 @@ module ietf-sip-auto-peering {
         of the service provider network.  At the time of writing
         RFC 10006, video media streams are not exchanged
         between enterprise and service provider SIP networks.";
+      reference
+        "RFC 10006: Automatic SIP Trunking and Peering";
 
       list media-type-audio {
         key "media-format";
