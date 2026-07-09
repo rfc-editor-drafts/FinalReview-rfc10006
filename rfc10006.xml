@@ -1517,7 +1517,7 @@ network that will peer with it.
   <section anchor="json-capability-set-document" 
 	   numbered="true" toc="default">
     <name>JSON Capability Set Document</name>
-	  <t>NOTE: '\' line wrapping per <xref target"RFC8792"/>.</t>
+	  <t>NOTE: '\' line wrapping per <xref target="RFC8792"/>.</t>
     <sourcecode name="asap-example.json" type="json" markers="true"><![CDATA[
 {
     "ietf-sip-auto-peering:sip-auto-peering":
