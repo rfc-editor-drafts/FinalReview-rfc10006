@@ -1758,9 +1758,10 @@ authenticate the enterprise.
 	<t>Applied
 	updates as specified by RFC 10006.</t></li>
 
-        <li><t>If the update is triggered following other IANA registration
-        policy (<xref section="4" target="RFC8126"/>) but not all the values in the registry
-        are covered by the same policy, insert this text:</t>
+        <li><t>If the update is triggered following another IANA registration
+        policy but not all the values in the registry
+        are covered by the same policy, insert this text (where "Some_IANA_policy" refers
+     to one of the defined registration policies in <xref section="4" target="RFC8126"/>):</t>
 
 	<t>Applied
 	updates as specified by the registration policy Some_IANA_policy.</t></li>
